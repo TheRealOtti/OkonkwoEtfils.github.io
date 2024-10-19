@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Okonkwoetfils Limited</title>
+    <style>
+        /* CSS styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #2a2a72;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #414bb2;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #2a2a72;
+        }
+
+        .button {
+            background-color: #414bb2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .button:hover {
+            background-color: #2a2a72;
+        }
+
+        footer {
+            background-color: #2a2a72;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+
+        .service-item {
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ddd;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item h3 {
+            color: #2a2a72;
+        }
+
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-item {
+                width: 80%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1>Okonkwoetfils Limited</h1>
+        <p>Your trusted partner in Import and Export</p>
+    </header>
+
+    <!-- Navigation bar -->
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <!-- Main content section -->
+    <section id="about">
+        <div class="content">
+            <h2>About Us</h2>
+            <p>Okonkwoetfils Limited specializes in the importation and exportation of a wide range of goods. With years of experience, we ensure that goods are transported safely and efficiently across borders.</p>
+            <button class="button" onclick="showMoreInfo()">Learn More</button>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section id="services">
+        <div class="content">
+            <h2>Our Services</h2>
+            <div class="services">
+                <div class="service-item">
+                    <h3>Importation</h3>
+                    <p>We handle the importation of high-quality goods from trusted suppliers worldwide.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Exportation</h3>
+                    <p>We specialize in exporting locally sourced products to international markets.</p>
+                </div>
+                <div class="service-item">
+                    <h3>Customs Brokerage</h3>
+                    <p>Our expert team ensures a smooth customs process for all shipments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+        <div class="content">
+            <h2>Contact Us</h2>
+            <p>For inquiries or partnerships, reach out to us at <a href="mailto:info@okonkwoetfils.com">info@okonkwoetfils.com</a>.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Okonkwoetfils Limited. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showMoreInfo() {
+            alert('Okonkwoetfils Limited offers the best services in international trade, focusing on reliability and trust.');
+        }
+    </script>
+</body>
+</html>
